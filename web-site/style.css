@@ -3,3 +3,140 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #ededed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.page {
+    width: 90%;
+}
+
+.header {
+    background-color: white;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+.links {
+    display: flex;
+    font-size: 1.2em;
+}
+
+.link {
+    margin-left: 30px;
+}
+
+.facebook {
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.banner {
+    height: 300px;
+    background-color: lightgreen;
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+}
+
+.item h2 {
+    margin-bottom: 10px;
+}
+
+.main {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.content {
+    flex: 2;
+}
+
+.content h2 {
+    margin-top: 20px;
+}
+
+.content div {
+    margin-top: 10px;
+}
+
+.navigation {
+    flex: 1;
+    margin-top: 10px;
+}
+
+.navigation .nav-items {
+    background-color: #cccccc;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.nav-items li {
+    list-style: none;
+    margin: 20px;
+}
+
+.gallery {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gallery-item {
+    flex: 1;
+    height: 100%;
+    border: 1px solid white;
+    background-color: cadetblue;
+}
+
+.gallery-heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+}
